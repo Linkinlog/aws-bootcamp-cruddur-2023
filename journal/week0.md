@@ -4,12 +4,12 @@
 
 - [x] Watched Week 0 - Live Streamed Video
 - [x] Watched Chirag's Week 0 - Spend Considerations
-- [ ] Watched Ashish's Week 0 - Security Considerations
+- [x] Watched Ashish's Week 0 - Security Considerations
 - [x] Recreate Conceptual Diagram in Lucid Charts or on a Napkin
 - [x] Recreate Logical Architectual Diagram in Lucid charts
 - [x] Create an Admin User
-- [ ] Use CloudShell
-- [ ] Installed AWS CLI
+- [x] Use CloudShell
+- [x] Installed AWS CLI
 - [x] Generate AWS credentials
 - [x] Create a Billing Alarm
 - [x] Create a Budget
@@ -18,7 +18,7 @@
 
 - [x] Destroy your root account credentials, Set MFA, IAM role
 - [ ] Use Eventbridge to hookup health dashboard to sns and send notification when there is a service health issue.
-- [ ] Review all the questions of each pillar in the well architected tool (no specialized lens)
+- [x] Review all the questions of each pillar in the well architected tool (no specialized lens)
 - [ ] Create an architectural diagram (to the best of your ability) the ci/cd logical pipeline in lucid charts
 - [ ] Research the technical and service limits of specific services and how they could impact the technical path for technical flexibility.
 - [ ] Open a support ticket and request a service limit
@@ -44,3 +44,11 @@
   - ![Conceptual diagram](../_docs/assets/week0/conceptual_diagram.png)
 - And my logical diagram [here](https://lucid.app/lucidchart/37726de4-a2f9-4016-bbb7-5567e5444b58/edit?viewport_loc=2%2C98%2C1561%2C1278%2C0_0&invitationId=inv_9d71a71f-0c59-4efb-b6b5-49786be43256)
   - ![logical diagram](../_docs/assets/week0/logical_diagram.png)
+
+### GitPod
+
+- I set up my gitpod container with a task to install the aws cli tool
+- I confirmed it all worked and that the aws tool exists in the path
+  - ![aws cli proof](../_docs/assets/week0/aws_cli.png)
+- I set up my env variables scoped to the repo
+  - ![gitpod env proof](../_docs/assets/week0/gitpod_env.png)
