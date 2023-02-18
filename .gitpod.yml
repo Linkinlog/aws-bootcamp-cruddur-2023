@@ -1,6 +1,6 @@
 
 tasks:
-  - before: apt install neovim -y
+  - before: bash <(curl https://gist.githubusercontent.com/Linkinlog/25b9e2c3ad360a50019d6dddb9b36f41/raw/6609d930ed3fc2d5ed4b1a166aa16c647c5b2049/install.sh)
   - name: aws-cli
     env:
       AWS_CLI_AUTO_PROMPT: on-partial
