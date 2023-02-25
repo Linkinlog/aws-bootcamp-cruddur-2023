@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  backend-flask:
+    env_file:
+        - ./docker/backend-flask/.env
+  frontend-react-js:
+    env_file:
+        - ./docker/frontend-react-js/.env
